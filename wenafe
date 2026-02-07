@@ -1,0 +1,111 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>  
+  <title>For Wenafe 🤍</title>  
+  <style>  
+    body {  
+      margin: 0;  
+      font-family: 'Segoe UI', sans-serif;  
+      background: linear-gradient(135deg, #1d2671, #c33764);  
+      display: flex;  
+      align-items: center;  
+      justify-content: center;  
+      min-height: 100vh;  
+      color: #fff;  
+      padding: 20px;  
+    }  
+    .card {  
+      background: rgba(0, 0, 0, 0.45);  
+      padding: 35px;  
+      border-radius: 18px;  
+      max-width: 460px;  
+      text-align: center;  
+      box-shadow: 0 15px 40px rgba(0,0,0,0.4);  
+      backdrop-filter: blur(6px);  
+    }  
+    h1 {  
+      color: #ffd6e8;  
+      margin-bottom: 10px;  
+      font-weight: 600;  
+    }  
+    p {  
+      line-height: 1.7;  
+      font-size: 16px;  
+    }  
+    .heart {  
+      font-size: 42px;  
+      margin-bottom: 10px;  
+      animation: beat 1.3s infinite;  
+    }  
+    @keyframes beat {  
+      0%, 100% { transform: scale(1); }  
+      50% { transform: scale(1.2); }  
+    }  
+    .distance {  
+      margin: 20px 0;  
+      font-style: italic;  
+      color: #ffccd5;  
+    }  
+    .footer {  
+      margin-top: 25px;  
+      font-size: 14px;  
+      color: #ddd;  
+    }  
+    .music-note {  
+      font-size: 14px;  
+      margin-top: 15px;  
+      color: #ffccd5;  
+    }  
+    iframe {  
+      display: none;  
+    }  
+  </style>  
+</head>  
+<body>  
+  <div class="card">  
+    <div class="heart">🤍</div>  
+    <h1>Hi Wenafe</h1>  
+  
+    <p>  
+      I made this little space on the internet just for you.  
+      Even with miles between us, I want you to feel how close  
+      you are to my heart.  
+    </p>  
+  
+    <p>  
+      Long distance isn’t easy, but loving you is.  
+      Every day I miss your presence, your voice,  
+      your giggles, your hugs, and the comfort of knowing  
+      you’re right beside me.  
+    </p>  
+  
+    <p>  
+      If love were measured by distance, ours would be impossible.  
+      But if it’s measured by patience, loyalty, and choosing  
+      each other every single day — then we’re unbreakable.  
+    </p>  
+  
+    <div class="distance">  
+      No matter how far you are,<br>  
+      this heart will always choose you.  
+    </div>  
+  
+    <div class="footer">  
+      Always yours,<br>  
+      <strong>Farlin Dave</strong>  
+    </div>  
+  
+    <div class="music-note">  
+      🎹 Die On This Hill (Piano Version)  
+    </div>  
+  
+    <!-- Background Music -->  
+    <iframe  
+      src="https://www.youtube.com/embed/5PjdY0cX8zE?autoplay=1&loop=1&playlist=5PjdY0cX8zE"  
+      allow="autoplay">  
+    </iframe>  
+  </div>  
+</body>  
+</html>  
